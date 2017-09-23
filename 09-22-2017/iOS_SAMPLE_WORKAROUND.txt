@@ -1,0 +1,51 @@
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+
+print("Hello world!");
+
+var x = 10, y = 20;
+var z = x + y ;
+
+print("\(x) + \(y) = \(z)");
+
+if x < y {
+	print(x);
+}else{
+	print(y);
+	
+}
+
+for i in 1...5 {
+	print (i);
+}
+
+for i in 1..<5 {
+	print ( " Value ", i);
+}
+
+
+print("Welcome\nto\n\nSwift\nProgramming");
+
+print("Welcome\nto\n\"Swift\"\nProgramming");
+
+let name = "Kalpana";
+print(" Welcome to Swift Programming , \(name)");
+
+print(Int.max)
+
+var n:Int8 = 50 ;
+print(Int8.max);
+
+print( "divide ",10/3);
+
+print( "divide ",10/3.0);
+
+print( "Modular ",5%2);
+
+print( "Modular ",5%7);
+
+let num1 = 1000, num2 = 2000;
+
+if num1 == num2 {
+	print( "\(num1) == \(num2)")
+}
